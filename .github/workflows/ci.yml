@@ -33,3 +33,6 @@ jobs:
 
       - name: script
         run: cd cartella && ls
+
+      - name: Run tests
+        run: python progetto.py
